@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: initial;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*typed.js blinking cursor*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*typing text*/
+.highlight {
+    font-size: 45px;
+}
+.links{
+    font-size: 20px;
+}
+.purple {
+    background-color: white;
+    font-size: 45px;
+    padding: 30px;
+}
+.darkpurple {
+    background-color: #23022E;
+    padding: 15px;
+    font-family: 'Bree Serif', serif;
+    font-size: 19px;
+    color: white;
+    line-height: 115%;
+}
+.graypurple {
+    padding: 15px 0px 0px 15px;
+    background-color: #A38FB9;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px !important;
+    color: white;
+}
+.darktan {
+    background-color: #CECFC7;
+    
+}
+.tan {
+    background-color: #EFF8E2;
+}
+.scrolltext {
+    font-family: 'Bree Serif', serif;
+    color: #23022E;
+}
+
+iframe {
+    height: 800px;
+    width:1100px;
+    box-shadow: -5px 9px 26px #888888;
+}
+body {
+    background-image: url("../img/brick.png");
+    background-attachment: fixed;
+}
+.projects {
+   font-family: 'Bree Serif', serif;
+   color: white;
+   margin: 13px 0px 0px 16px;
+   padding: 0px 0px 0px 0px; 
+}
+.mac {
+   height: 200px;
+   margin-left: 15px;
+}
+.side {
+    margin: -26px 0px 0px 0px;
+    padding: 0px 7px 0px 7px;
+}
+.linkedin {
+    padding: 20px;
+}
+.work {
+    height: 700px;
+    width: 800px;
+}
+.languages {
+    padding: 5px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.github {
+    font-size: 65px;
+}
+
+.post {
+    height: 25vw;
+    padding: 20px;
+}
+#post1:hover {
+        background-image:url("../img/lightened with his glory.png");
+}
+#post1 {
+    background: linear-gradient(rgba(105, 12, 136, 0.75), rgba(105, 12, 136, 0.75)), url("../img/lightened with his glory.png");
+    background-size: cover;
+}
+#post2:hover {
+        background-image:url("../img/macbook.jpg");
+}
+#post2 {
+    background: linear-gradient(rgba(105, 12, 136, 0.75), rgba(105, 12, 136, 0.75)), url("../img/macbook.jpg");
+    background-size: cover;
+}
